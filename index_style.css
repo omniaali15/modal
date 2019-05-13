@@ -1,0 +1,119 @@
+body
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    margin-left: 2%;
+}
+header .modal-close-img
+{
+    height: 20px;
+    width: 20px;
+   padding-top: 10px;
+}
+.overlay
+{
+    background-color:rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    z-index: -1;
+    transition-duration: 1s;
+}
+.custom-image-responsive {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.modal
+{
+    background-color:white;
+    width: 50%;
+    position: absolute;
+    z-index: 11;
+    margin: auto;
+    left: 25%;
+    transition-duration: 1s;
+    opacity: 0;
+}
+header .modal-header
+{
+    overflow: auto ;
+}
+.modal-header h3
+{
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.line
+{
+    background-color:  rgba(0,0,0,0.4);
+    height: 1px;
+    width: 100%;
+}
+.modal-close-img
+{
+    float: right;
+    margin-right: 2%;
+}
+.modal-footer
+{
+    overflow: auto;
+}
+#closebtn
+{
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/**.overlay
+{
+    background-color:  rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.container
+{
+	height: 120px;
+	background-color: white;
+    background-size: 100% 100%;
+    width:50%;
+    margin:auto;
+    margin-top: 5%;
+}
+.container h3
+{
+    padding-left: 2%;
+    margin-top: 3%;
+}
+.line
+{
+    background-color:  rgba(0,0,0,0.4);
+    height: 1px;
+    width: 100%;
+}
+.image img
+{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: fixed;
+    float: right ;
+}
+#closebtn
+{
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+*/
